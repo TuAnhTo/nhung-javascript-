@@ -1,0 +1,43 @@
+Bai 1 
+<!Doctype html>
+<html>
+<body>
+
+<button type="button" onclick="alert('Xin chào!');">Click Me!</button>
+</body>
+</html>
+
+
+
+
+Bai 2
+<!Doctype html>
+<html>
+<body>
+<button type="button" onclick="showMessage();">Click Me!</button>
+<script>
+    function showMessage(){
+        alert('Xin chào!');
+    }
+</script>
+</body>
+</html>
+
+
+Ma nguon js 
+ 	function showMessage(){
+    alert('Xin chào!');
+}
+
+
+Bai 3
+<!Doctype html>
+<html>
+<body>
+
+<button type="button" onclick="showMessage();">Click Me!</button>
+<script src="myScript.js"></script>
+
+</body>
+</html>
+
